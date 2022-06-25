@@ -1,0 +1,20 @@
+cc_library_shared {
+    name: "libqti-perfd-client",
+    proprietary: true,
+    defaults: ["hidl_defaults"],
+    srcs: [
+        "client.cpp",
+    ],
+    cflags: [
+        "-Werror",
+        "-Wextra",
+        "-Wall",
+    ],
+    shared_libs: [
+        "android.hardware.power-V2-ndk_platform",
+        "libbinder",
+        "libbinder_ndk",
+        "liblog",
+        "libutils",
+    ],
+}
