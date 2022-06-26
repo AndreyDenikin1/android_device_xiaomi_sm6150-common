@@ -43,6 +43,10 @@ ro.telephony.default_cdma_sub=0
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
 
+# LMK
+ro.lmk.filecache_min_kb=153600
+ro.lmk.stall_limit_critical=40
+
 # Recovery
 ro.recovery.ui.margin_height=48
 
