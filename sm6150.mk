@@ -91,7 +91,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.bluetooth.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.bluetooth.xml
 
 #Build MIUI Camera
-$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+$(call inherit-product, vendor/miuicamera/config.mk)
 
 # Camera
 PRODUCT_PACKAGES += \
