@@ -34,7 +34,6 @@ debug.stagefright.omx_default_rank=0
 debug.stagefright.ccodec_delayed_params=0
 mmp.enable.3g2=true
 media.aac_51_output_enabled=true
-vendor.mm.enable.qcom_parser=16776959
 vendor.mm.enable.qcom_parser=16777215
 persist.mm.enable.prefetch=true
 vendor.audio.offload.multiaac.enable=true
