@@ -60,5 +60,8 @@ persist.vendor.delta_time.enable=true
 # WiFi
 wifi.interface=wlan0
 
+# Render
+debug.cpurend.vsync=false
+
 # Zygote
 persist.device_config.runtime_native.usap_pool_enabled=true
